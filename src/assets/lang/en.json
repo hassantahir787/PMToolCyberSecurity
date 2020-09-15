@@ -1,0 +1,129 @@
+{
+    "LCZ_SHARED": {
+        "FORM_REQ_FIELD_MSG": "Field value is required",
+        "FORM_PASSWORD_MISMATCH_MSG": "Password should match repeat password field."
+    },
+    "LCZ_HEADER": {
+        "TITLE": "Humahang knowledge portal",
+        "LINKS": {
+            "HOME": "Home",
+            "COURSES": "Courses",
+            "ABOUT": "About",
+            "LOGIN": "Sign in",
+            "MY_ACCOUNT": "My account",
+            "LOGOUT": "Logout"
+        },
+        "MENU": {
+            "PROFILE": "Profile",
+            "CHANGE_PASSWORD": "Change password",
+            "LOGOUT": "Logout"
+        }
+    },
+    "LCZ_REGISTER": {
+        "TITLE": "Sign up",
+        "FIRST_NAME": "First name",
+        "LAST_NAME": "Last name",
+        "EMAIL": "Email address",
+        "PHONE": "Phone",
+        "PASSWORD": "Password",
+        "REPEAT_PASSWORD": "Repeat password",
+        "GENDER": "Gender",
+        "GENDER_MALE": "Male",
+        "GENDER_FEMALE": "Female",
+        "GENDER_UNSPECIFIED": "Prefer not specify",
+        "CITY": "City",
+        "ZIPCODE": "Zipcode",
+        "COUNTRY": "Country",
+        "TERMS_CONDITIONS": "",
+        "BTN_REGISTER": "Register"
+    },
+    "LCZ_SIGNIN": {
+        "TITLE": "Sign in",
+        "EMAIL": "Email address",
+        "PASSWORD": "Password",
+        "FORGOT_PASSWORD": "Forgot password?",
+        "CLICK_HERE": "Click here",
+        "LOGIN": "Login",
+        "LOGIN_WITH_FACEBOOK": "LOGIN WITH FACEBOOK",
+        "LOGIN_WITH_GOOGLE": "LOGIN WITH GOOGLE"
+    },
+    "LCZ_FORGOT_PASSWORD": {
+        "TITLE": "Forgot password",
+        "ENTER_YOUR_EMAIL": "Please enter your email",
+        "EMAIL_PLACEHOLDER": "Email address",
+        "RESET_BTN": "Reset"
+    },
+    "LCZ_FORGOT_PASSWORD_CHANGE": {
+        "TITLE": "Enter new password",
+        "NEW_PASSWORD": "New password",
+        "CONFIRM_PASSWORD": "Confirm new password",
+        "BTN_CHANGE_PASSWORD": "Change password"
+    },
+    "LCZ_CHANGE_PASSWORD": {
+        "TITLE": "Enter new password",
+        "OLD_PASSWORD": "Old password",
+        "NEW_PASSWORD": "New password",
+        "CONFIRM_PASSWORD": "Confirm new password",
+        "BTN_CHANGE_PASSWORD": "Change password"
+    },
+    "LCZ_PROFILE": {
+        "TITLE": "Profile",
+        "EMAIL": "Email",
+        "FIRST_NAME": "First name",
+        "LAST_NAME": "Last name",
+        "PASSWORD": "Password",
+
+        "REPEAT_PASSWORD": "Repeat password",
+        "GENDER": {
+            "LABEL": "Gender",
+            "MALE": "Male",
+            "FEMALE": "Female",
+            "UNSPECIFIED": "Unspecified"
+        },
+        "CITY": "City",
+        "STATE": "State",
+        "COUNTRY": "Country",
+        "SAVE_BTN": "Save profile"
+    },
+    "LCZ_EDIT_COURSE": {
+        "LBL_FEATURE_COURSE": "Feature course",
+        "FEATURE_COURSE_DESCRIPTION": "You may select to feature a course, that will make it appear as a featured course at the top of courses list.",
+        "BTN_FEATURE_COURSE": "Feature course",
+
+        "LBL_DELETE_COURSE": "Delete course",
+        "DELETE_COURSE_DESCRIPTION": "You may select to delete a course, that will remove the course from courses list.",
+        "BTN_DELETE_COURSE": "Delete course",
+
+        "LBL_INSIGHTS": "Insights",
+        "INSIGHTS_DESCRIPTION": "Following are statistical distribution of users using the system.",
+        "LBL_GENDER_SEGREGATION": "Gender segregation",
+        "LBL_GEO_SEGREGATION": "Geological segregation"
+    },
+    "LCZ_CREATE_COURSE": {
+        "TITLE": "Create course",
+        "COURSE_TITLE": "Title",
+        "AUTHOR": "Author",
+        "CATEGORY": "Category",
+        "DESCRIPTION": "Description",
+        "BTN_CREATE_COURSE": "Create course"
+    },
+    "LCZ_MANAGE_USERS": {
+        "TITLE": "Manage users",
+        "BTN_CREATE_USER": "Create new user",
+        "TBL_NAME": "Name",
+        "TBL_EMAIL": "Email",
+        "TBL_DATE_JOINED": "Date joined",
+        "TBL_PREVIOUS": "Previous",
+        "TBL_NEXT": "Next"
+    },
+    "LCZ_MY_ACCOUNT": {
+        "SIDE_BAR": {
+            "MY_COURSES": "My courses",
+            "QUIZZES": "Quizzes",
+            "PROGRESS": "Progress",
+            "CERTIFICATES": "Certificates",
+            "MY_PROFILE": "My profile"
+
+        }
+    }
+}

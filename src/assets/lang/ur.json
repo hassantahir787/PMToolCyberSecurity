@@ -1,0 +1,119 @@
+{
+    "LCZ_SHARED": {
+        "FORM_REQ_FIELD_MSG": "فیلڈ ویلیو کی ضرورت ہے",
+        "FORM_PASSWORD_MISMATCH_MSG": "پاس ورڈ دوبارہ پاس ورڈ کے فیلڈ سے ملنا چاہئے"
+    },
+    "LCZ_HEADER": {
+        "TITLE": "ہم آہنگ معلوماتی پورٹل",
+        "LINKS": {
+            "HOME": "ہوم",
+            "COURSES": "کورسسز",
+            "ABOUT": "ہمارے متعلق",
+            "LOGIN": "لاگ ان",
+            "MY_ACCOUNT": "اکاوٴنٹ",
+            "LOGOUT": "لاگ آوٴٹ"
+        },
+        "MENU": {
+            "PROFILE": "پروفائل",
+            "CHANGE_PASSWORD": "پاس ورڈ تبدیل کریں",
+            "LOGOUT": "لاگ آوٴٹ"
+        }
+    },
+    "LCZ_REGISTER": {
+        "TITLE": "سائن اپ",
+        "FIRST_NAME": "پہلا نام",
+        "LAST_NAME": "ٓآخری نام",
+        "EMAIL": "ای میل",
+        "PHONE": "فون نمبر",
+        "PASSWORD": "پاسورڈ",
+        "REPEAT_PASSWORD": "پاسورڈ دہرائیں",
+        "GENDER": "صنف",
+        "GENDER_MALE": "مرد",
+        "GENDER_FEMALE": "عورت",
+        "GENDER_UNSPECIFIED": "مخصوص نہیں",
+        "CITY": "شہر",
+        "ZIPCODE": "زپ کوڈ",
+        "COUNTRY": "ملک",
+        "TERMS_CONDITIONS": "شرائط و ضوابط",
+        "BTN_REGISTER": "دجسٹر کریں"
+    },
+    "LCZ_SIGNIN": {
+        "TITLE": "سائن ان",
+        "EMAIL": "ای میل",
+        "PASSWORD": "پاسورڈ",
+        "FORGOT_PASSWORD": "پاسورڈ بھول گئے?",
+        "CLICK_HERE": "یہاں کلک کریں",
+        "LOGIN": "لاگ ان",
+        "LOGIN_WITH_FACEBOOK": "فیس بک سے لاگ ان کریں",
+        "LOGIN_WITH_GOOGLE": "گوگل سے لاگ ان کریں"
+    },
+    "LCZ_FORGOT_PASSWORD": {
+        "TITLE": "پاسورڈ بھول گئے",
+        "ENTER_YOUR_EMAIL": "ای میل درج کریں",
+        "EMAIL_PLACEHOLDER": "ای میل",
+        "RESET_BTN": "ری سیٹ کریں"
+    },
+    "LCZ_FORGOT_PASSWORD_CHANGE": {
+        "TITLE": "نیا پاس ورڈ درج کریں",
+        "NEW_PASSWORD": "نیا پاس",
+        "CONFIRM_PASSWORD": "نئے پاس ورڈ کی تصدیق کریں",
+        "BTN_CHANGE_PASSWORD": "پاس ورڈ تبدیل کریں"
+    },
+    "LCZ_CHANGE_PASSWORD": {
+        "TITLE": "نیا پاس ورڈ درج کریں",
+        "OLD_PASSWORD": "پرانا پاس ورڈ",
+        "NEW_PASSWORD": "نیا پاس ورڈ",
+        "CONFIRM_PASSWORD": "نئے پاس ورڈ کی تصدیق کریں",
+        "BTN_CHANGE_PASSWORD": "پاس ورڈ تبدیل کریں"
+    },
+    "LCZ_PROFILE": {
+        "TITLE": "پروفائل",
+        "EMAIL": "ای میل",
+        "FIRST_NAME": "پہلا نام",
+        "LAST_NAME": "آخری نام",
+        "PASSWORD": "پاس ورڈ",
+
+        "REPEAT_PASSWORD": "پاس ورڈ دہرائیں",
+        "GENDER": {
+            "LABEL": "صنف",
+            "MALE": "مرد",
+            "FEMALE": "عورت",
+            "UNSPECIFIED": "مخصوص نہیں"
+        },
+        "CITY": "شہر",
+        "STATE": "اسٹیٹ",
+        "COUNTRY": "ملک",
+        "SAVE_BTN": "پروفائل محفوظ کریں"
+    },
+    "LCZ_EDIT_COURSE": {
+        "LBL_FEATURE_COURSE": "فیچر کورس",
+        "FEATURE_COURSE_DESCRIPTION": "آپ کسی کورس کو نمایاں کرنے کے لئے منتخب کرسکتے ہیں ، اس سے یہ کورس کے لسٹ کے اوپری حصے میں ایک نمایاں کورس کے طور پر ظاہر ہوگا",
+        "BTN_FEATURE_COURSE": "فیچر کورس",
+
+        "LBL_DELETE_COURSE": "کورس  ڈلیٹ کریں",
+        "DELETE_COURSE_DESCRIPTION": "آپ کسی کورس کو ڈلیٹ کرنے کا انتخاب کرسکتے ہیں ، جو کورس کو فہرست سے خارج کردے گا",
+        "BTN_DELETE_COURSE": "کورس  ڈلیٹ کریں",
+
+        "LBL_INSIGHTS": "آگاہی",
+        "INSIGHTS_DESCRIPTION": "سسٹم استعمال کرنے والے صارفین کی اعداد و شمار کی تقسیم مندرجہ ذیل ہیں",
+        "LBL_GENDER_SEGREGATION": "صنفی تقسیم",
+        "LBL_GEO_SEGREGATION": "ارضیاتی تقسیم"
+    },
+    "LCZ_CREATE_COURSE": {
+        "TITLE": "کورس بنائیں",
+        "COURSE_TITLE": "عنوان",
+        "AUTHOR": "مصنف",
+        "CATEGORY": "قسم",
+        "DESCRIPTION": "تفصیل",
+        "BTN_CREATE_COURSE": "کورس بنائیں"
+    },
+    "LCZ_MANAGE_USERS": {
+        "TITLE": "صارف مینج کریں",
+        "BTN_CREATE_USER": "نیا صارف بنائیں",
+        "TBL_NAME": "نام",
+        "TBL_EMAIL": "ای میل",
+        "TBL_DATE_JOINED": "شمولیت کی تاریخ",
+        "TBL_PREVIOUS": "پہلے",
+        "TBL_NEXT": "آگے"
+    }
+}

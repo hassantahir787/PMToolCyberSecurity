@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "hkp-test-app",
+    "test": "hkp-test-app"
+  }
+}

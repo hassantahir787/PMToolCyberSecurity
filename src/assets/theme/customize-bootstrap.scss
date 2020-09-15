@@ -1,0 +1,14 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+$theme-colors: (
+     "primary": grey,
+     "secondary": #02bceb,
+     "facebook": #425BB4,
+     "google": #D65512,
+     "navbar": #7195BE,
+     "white": #ffffff
+);
+
+

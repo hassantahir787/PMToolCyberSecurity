@@ -1,0 +1,135 @@
+  
+//   .heading{
+//     text-align: center;
+//     margin-right: 20em;
+//   }
+
+//   .user-form{
+//     text-align: center;
+//     width: 70em;
+//     margin-left: 10em;
+//   }
+// .mybutton{
+//   margin-left: 15em;
+// }
+
+
+// .form-background{
+//     background-color:  #F7F9F9;
+//     max-width: 50em;
+//     margin-left: auto;
+//     margin-right: auto;
+//     border-radius: 10px;
+//   }
+  
+//   .form{
+//     padding-top: 12px;
+//     padding-left: 15px;
+    
+//   }
+  
+//   body {
+//     background-color: #efefef;
+//   }
+  
+//   .profile-pic {
+//       max-width: 200px;
+//       max-height: 200px;
+//       display: block;
+//   }
+  
+//   .file-upload {
+//       display: none;
+//   }
+//   .circle {
+//       border-radius: 1000px !important;
+//       overflow: hidden;
+//       width: 128px;
+//       height: 128px;
+//       border: 8px solid rgba(255, 255, 255, 0.7);
+//       position: absolute;
+//       top: 72px;
+//   }
+//   img {
+//       max-width: 100%;
+//       height: auto;
+//   }
+//   .p-image {
+//     position: absolute;
+//     top: 167px;
+//     right: 30px;
+//     color: #666666;
+//     transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+//   }
+//   .p-image:hover {
+//     transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+//   }
+//   .upload-button {
+//     font-size: 1.2em;
+//   }
+  
+//   .upload-button:hover {
+//     transition: all .3s cubic-bezier(.175, .885, .32, 1.275);
+//     color: #999;
+//   }
+  
+//   .picture-container{
+//     position: relative;
+//     cursor: pointer;
+//     text-align: center;
+//   }
+//   .picture{
+//     width: 106px;
+//     height: 106px;
+//     background-color: #999999;
+//     border: 4px solid #CCCCCC;
+//     color: #FFFFFF;
+//     border-radius: 50%;
+//     overflow: hidden;
+//     transition: all 0.2s;
+//     -webkit-transition: all 0.2s;
+//   }
+//   .picture:hover{
+//     border-color: #2ca8ff;
+//   }
+//   .content.ct-wizard-green .picture:hover{
+//     border-color: #05ae0e;
+//   }
+//   .content.ct-wizard-blue .picture:hover{
+//     border-color: #3472f7;
+//   }
+//   .content.ct-wizard-orange .picture:hover{
+//     border-color: #ff9500;
+//   }
+//   .content.ct-wizard-red .picture:hover{
+//     border-color: #ff3b30;
+//   }
+//   .picture input[type="file"] {
+//     cursor: pointer;
+//     display: block;
+//     height: 100%;
+//     left: 0;
+//     opacity: 0 !important;
+//     position: absolute;
+//     top: 0;
+//     width: 100%;
+//   }
+  
+//   .picture-src{
+//     width: 100%;
+    
+//   }
+//   /*Profile Pic End*/
+
+
+.user-form{
+  max-width: 60em;
+  margin-left: 17em;
+  background: white;
+  border-radius: 20px;
+}
+.container{
+  margin-left: 15em;
+  padding-top: 8em;
+  padding-bottom: 6em;
+}

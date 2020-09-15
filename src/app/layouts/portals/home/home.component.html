@@ -1,0 +1,236 @@
+<app-navdrawer [menuOpened]="menuOpened" (menuClosed)="menuOpened = false"></app-navdrawer>
+<div class="center2">
+    <h2 class="recent">Overview</h2>
+
+<div class="col-md-12">
+        <table class="rwd-table">
+          <tr>
+            <th>Project Name</th>
+            <th>Project Status</th>
+            <th>Memebrs</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td data-th="title">Project 1</td>
+            <td data-th="status">On-track</td>
+            <td data-th="member">7</td>
+            <td data-th="Description">-</td>
+          </tr>
+
+        </table>
+
+    </div>
+
+</div>
+
+<hr>
+
+
+
+<div class="center2">
+<h2 class="recent">Recent Projects</h2>
+    <div class="row">
+
+
+        <div class="col-md-2" id="Card2">
+        <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+            <div class="card-body">
+              <h5 class="card-title">Project 1</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-2" id="Card2">
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+
+
+            
+        <div class="col-md-2" id="Card2">
+            <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+            </div>
+
+
+
+    </div>
+        
+
+</div>
+
+<hr>
+
+
+
+
+<div class="center2">
+    <h2 class="recent">Progress View</h2>
+        <div class="row">
+    
+    
+            <div class="col-md-2" id="Card2">
+            <div class="card text-white bg-success mb-3">
+                <div class="card-body">
+                  <h4 class="card-title">10</h4>
+                 <h5> Completed Tasks </h5>
+                </div>
+              </div>
+            </div>
+            
+       
+            <div class="col-md-2" id="Card2">
+                <div class="card text-white bg-info mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title">2</h4>
+                     <h5> Incompleted Tasks </h5>
+                    </div>
+                  </div>
+                </div>
+                
+    
+              
+            <div class="col-md-2" id="Card2">
+                <div class="card text-white bg-danger mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title">1</h4>
+                     <h5> Overdue Tasks </h5>
+                    </div>
+                  </div>
+            </div>
+
+                  
+                  
+            <div class="col-md-2" id="Card2">
+                <div class="card text-white bg-warning mb-3">
+                    <div class="card-body">
+                      <h4 class="card-title">14</h4>
+                     <h5> Total Tasks </h5>
+                    </div>
+                  </div>
+                </div>
+        </div>
+            
+    
+    </div>
+
+
+
+    <div class="row">
+
+        <div class="container">
+            <!-- DONUT CHART BLOCK (LEFT-CONTAINER) --> 
+            
+            <div class="donut-chart-block block"> 
+                              <h2 class="titular">Sales Overview</h2>
+                              <div class="donut-chart">
+           <!-- PORCIONES GRAFICO CIRCULAR
+                ELIMINADO #donut-chart
+                MODIFICADO CSS de .donut-chart -->
+                <div id="porcion1" class="recorte"><div class="quesito ios" data-rel="21"></div></div>
+               <div id="porcion2" class="recorte"><div class="quesito mac" data-rel="39"></div></div>
+               <div id="porcion3" class="recorte"><div class="quesito win" data-rel="31"></div></div>
+               <div id="porcionFin" class="recorte"><div class="quesito linux" data-rel="9"></div></div>
+           <!-- FIN AÑADIDO GRÄFICO -->
+                                      <p class="center-date">JUNE<br><span class="scnd-font-color">2013</span></p>        
+                              </div>
+                              <ul class="os-percentages horizontal-list">
+                                  <li>
+                                      <p class="ios os scnd-font-color">iOS</p>
+                                      <p class="os-percentage">21<sup>%</sup></p>
+                                  </li>
+                                  <li>
+                                      <p class="mac os scnd-font-color">Mac</p>
+                                      <p class="os-percentage">39<sup>%</sup></p>
+                                  </li>
+                                  <li>
+                                      <p class="linux os scnd-font-color">Linux</p>
+                                      <p class="os-percentage">9<sup>%</sup></p>
+                                  </li>
+                                  <li>
+                                      <p class="win os scnd-font-color">Win</p>
+                                      <p class="os-percentage">31<sup>%</sup></p>
+                                  </li>
+                              </ul>
+                          </div>
+
+
+
+                        
+
+           <!-- LINE CHART BLOCK (LEFT-CONTAINER) -->
+                          <div class="line-chart-block block">
+                            <h2 class="titular">Yearly Projects</h2>
+               <div class="line-chart">
+                 <div class='grafico'>
+                 <ul class='eje-y'>
+                   <li data-ejeY='30'></li>
+                   <li data-ejeY='20'></li>
+                   <li data-ejeY='10'></li>
+                   <li data-ejeY='0'></li>
+                 </ul>
+                 <ul class='eje-x'>
+                   <li>Apr</li>
+                   <li>May</li>
+                   <li>Jun</li>
+                 </ul>
+                   <span data-valor='25'>
+                     <span data-valor='8'>
+                       <span data-valor='13'>
+                         <span data-valor='5'>   
+                           <span data-valor='23'>   
+                           <span data-valor='12'>
+                               <span data-valor='15'>
+                               </span></span></span></span></span></span></span>
+                 </div>
+                 
+               </div>
+                              <ul class="time-lenght horizontal-list">
+                                  <li><a class="time-lenght-btn" href="#14">Week</a></li>
+                                  <li><a class="time-lenght-btn" href="#15">Month</a></li>
+                                  <li><a class="time-lenght-btn" href="#16">Year</a></li>
+                              </ul>
+                              <ul class="month-data clear">
+                                  <li>
+                                      <p>APR<span class="scnd-font-color"> 2013</span></p>
+                                      <p><span class="entypo-plus increment"> </span>21<sup>%</sup></p>
+                                  </li>
+                                  <li>
+                                      <p>MAY<span class="scnd-font-color"> 2013</span></p>
+                                      <p><span class="entypo-plus increment"> </span>48<sup>%</sup></p>
+                                  </li>
+                                  <li>
+                                      <p>JUN<span class="scnd-font-color"> 2013</span></p>
+                                      <p><span class="entypo-plus increment"> </span>35<sup>%</sup></p>
+                                  </li>
+                              </ul>
+                          </div>
+                          
+          
+            
+            <div class="bar-chart-block block">
+              <h2 class='titular'>By Country <span>*1000</span></h2>
+              <div class='grafico bar-chart'>
+                 <ul class='eje-y'>
+                   <li data-ejeY='60'></li>
+                   <li data-ejeY='45'></li>
+                   <li data-ejeY='30'></li>
+                   <li data-ejeY='15'></li>
+                   <li data-ejeY='0'></li>
+                 </ul>
+                
+              </div>
+            </div>
+                      </div>
+          
+    </div>

@@ -1,0 +1,34 @@
+.hd-footer {
+  box-shadow: 0 0 1px 1px rgba(20, 23, 28, .1), 0 3px 1px 0 rgba(20, 23, 28, .1);
+  border-top: 1px solid lightgray;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  // padding-left: 15%;
+  // padding-right: 15%;
+  background: black;
+}
+
+.hd-copyright-message {
+  margin-top: 5px;
+  color: darkgray;
+  text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+  .hd-copyright-message {
+    text-align: right;
+  }
+}
+
+.hd-footer-links {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  background: white;
+}

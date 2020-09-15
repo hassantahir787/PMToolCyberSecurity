@@ -1,0 +1,69 @@
+<!-- <nav class="navbar navbar-collapse-sm navbar-expand-lg navbar-light bg-light">
+
+  <div class="d-inline mr-4">
+    <img class="hd-logo" src="assets/images/uc-logo.jpg" (click)="goToHome()">
+  </div>
+
+  <div class="flex-grow-1 d-none d-lg-flex">
+    <div class="input-group hd-search mr-auto">
+      <span class="input-group-addon">
+        <img src="assets/images/search-icon.svg">
+      </span>
+      <input type="text" class="form-control" placeholder="Search">
+    </div>
+  </div>
+
+  <div class="collapse navbar-collapse hd-header-links" id="navbarSupportedContent">
+
+    <ul class="navbar-nav hd-links ml-auto">
+      <li *ngIf="!router.isActive('/', true)" class="nav-item active">
+        <a class="nav-link text-black" (click)="goToHome()" href="javascript:void(0);">
+          {{ "LCZ_HEADER.LINKS.HOME" | translate}}
+        </a>
+      </li>
+      <li class="nav-item active" *ngIf="!isAuthenticated()">
+        <a class="nav-link text-black" (click)="signIn()" href="javascript:void(0);">
+          {{ "LCZ_HEADER.LINKS.LOGIN" | translate}}
+        </a>
+      </li>
+      <li class="nav-item active" *ngIf="isAuthenticated()">
+        <a class="nav-link text-black" (click)="goToMyAccount()" href="javascript:void(0);">
+          {{ "LCZ_HEADER.LINKS.MY_ACCOUNT" | translate}}
+        </a>
+      </li>
+      <li class="nav-item active" *ngIf="isAuthenticated()">
+        <a class="nav-link text-black" (click)="logOut()" href="javascript:void(0);">
+          {{ "LCZ_HEADER.LINKS.LOGOUT" | translate}}
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="flex-grow-1 flex-lg-grow-0 text-right">
+    <ui-switch (valueChange)="onLanguageChange($event)"></ui-switch>
+  </div>
+
+  <img class="hd-search-icon d-lg-none" src="assets/images/search-icon-white.svg">
+
+  <!-- Dropdown with avatar for logout and settings etc -->
+  <!-- <div class="btn-group navbar-expand d-lg-none" dropdown>
+    <a class="nav-link p-0 dropdown-toggle" id="button-basic" dropdownToggle href="javascript:void(0);" role="button"
+      id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <img src="assets/images/icons/top-menu-icon.png" class="rounded-circle z-depth-0"
+        alt="avatar image" height="35">
+    </a>
+
+    <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu dropdown-menu-right" role="menu"
+      aria-labelledby="button-basic">
+      <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);"
+          (click)="goToProfile()">{{ "LCZ_HEADER.MENU.PROFILE" | translate}}</a></li>
+      <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);"
+          (click)="goToChangePassword()">{{ "LCZ_HEADER.MENU.CHANGE_PASSWORD" | translate}}</a></li>
+      <li class="divider dropdown-divider"></li>
+      <li role="menuitem"><a class="dropdown-item" href="javascript:void(0);"
+          (click)="logOut()">{{ "LCZ_HEADER.MENU.LOGOUT" | translate}}</a>
+      </li>
+    </ul>
+  </div>
+
+</nav> --> -->

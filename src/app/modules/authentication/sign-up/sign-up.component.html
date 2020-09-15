@@ -1,0 +1,149 @@
+<div class="modal-header">
+  <h2>
+    {{ "LCZ_REGISTER.TITLE" | translate }}
+  </h2>
+</div>
+
+<div #testModal class="modal-body">
+  <form (submit)="onSubmit()" [formGroup]="signUpForm">
+    <div class="container">
+
+      <!-- First name -->
+      <div class="row">
+        <div class="col-12 pb-3">
+          <input type="text" class="form-control" formControlName="firstName" [placeholder]="'LCZ_REGISTER.FIRST_NAME' | translate">
+
+          <div *ngIf="signUpForm.controls['firstName'].errors && !signUpForm.controls['firstName'].untouched"
+            class="hd-error-msg">
+            <div [hidden]="!signUpForm.controls['firstName'].errors.required">
+              {{ "LCZ_SHARED.FORM_REQ_FIELD_MSG" | translate }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Last name -->
+      <div class="row">
+        <div class="col-12 pb-3">
+          <input type="text" class="form-control" formControlName="lastName" [placeholder]="'LCZ_REGISTER.LAST_NAME' | translate">
+
+          <div *ngIf="signUpForm.controls['lastName'].errors && !signUpForm.controls['lastName'].untouched"
+            class="hd-error-msg">
+            <div [hidden]="!signUpForm.controls['lastName'].errors.required">
+              {{ "LCZ_SHARED.FORM_REQ_FIELD_MSG" | translate }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Email address -->
+      <div class="row">
+        <div class="col-12 pb-3">
+          <input type="email" class="form-control" formControlName="email" email [placeholder]="'LCZ_REGISTER.EMAIL' | translate">
+
+          <div *ngIf="signUpForm.controls['email'].errors && !signUpForm.controls['email'].untouched"
+            class="hd-error-msg">
+            <div [hidden]="!signUpForm.controls['email'].errors.required">
+              {{ "LCZ_SHARED.FORM_REQ_FIELD_MSG" | translate }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Password -->
+       <div class="row">
+        <div class="col-12 pb-3">
+          <input type="password" class="form-control" formControlName="password" [placeholder]="'LCZ_REGISTER.PASSWORD' | translate">
+
+          <div *ngIf="signUpForm.controls['password'].errors && !signUpForm.controls['password'].untouched"
+            class="hd-error-msg">
+            <div [hidden]="!signUpForm.controls['password'].errors.required">
+              {{ "LCZ_SHARED.FORM_REQ_FIELD_MSG" | translate }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat password -->
+      <div class="row">
+        <div class="col-12 pb-3">
+          <input type="password" class="form-control" formControlName="repeatPassword" [placeholder]="'LCZ_REGISTER.REPEAT_PASSWORD' | translate">
+
+          <div
+            *ngIf="signUpForm.errors && signUpForm.errors.mismatch && !signUpForm.controls['repeatPassword'].untouched"
+            class="hd-error-msg">
+            <div [hidden]="!signUpForm.errors.mismatch">
+              {{ "LCZ_SHARED.FORM_PASSWORD_MISMATCH_MSG" | translate }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile -->
+      <div class="row">
+        <div class="col-12 pb-3">
+          <input type="text" class="form-control" formControlName="mobile" [placeholder]="'LCZ_REGISTER.PHONE' | translate">
+
+          <div *ngIf="signUpForm.controls['mobile'].errors && !signUpForm.controls['mobile'].untouched"
+            class="hd-error-msg">
+            <div [hidden]="!signUpForm.controls['mobile'].errors.required">
+              {{ "LCZ_SHARED.FORM_REQ_FIELD_MSG" | translate }}
+            </div>
+          </div>
+        </div>
+      </div>
+
+     
+
+      <!-- Gender -->
+      <!-- <div class="row">
+        <div class="col-4">
+          <label class="form-control-label">
+            {{ "LCZ_REGISTER.GENDER" | translate }}
+          </label>
+        </div>
+
+        <div class="col-8 pb-3">
+          <div>
+            <label class="radio">
+              <input type="radio" value="1" formControlName="gender">
+              <span>
+                {{ "LCZ_REGISTER.GENDER_MALE" | translate }}
+              </span>
+            </label>
+          </div>
+          <div>
+            <label class="radio">
+              <input type="radio" value="2" formControlName="gender">
+              <span>
+                {{ "LCZ_REGISTER.GENDER_FEMALE" | translate }}
+              </span>
+            </label>
+          </div>
+          <div>
+            <label class="radio">
+              <input type="radio" value="3" formControlName="gender">
+              <span>
+                {{ "LCZ_REGISTER.GENDER_UNSPECIFIED" | translate }}
+              </span>
+            </label>
+          </div>
+        </div>
+      </div> -->
+
+      <!-- Agree to terms & conditions -->
+      <div class="row">
+        <div class="col-12">
+          <label>
+            <input type="checkbox" formControlName="termsConditions"> I agree to the <a href="#">terms and
+              conditions</a>
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <button type="submit" class="btn-block">
+      {{ "LCZ_REGISTER.BTN_REGISTER" | translate }}
+    </button>
+  </form>
+</div>

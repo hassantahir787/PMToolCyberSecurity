@@ -1,0 +1,154 @@
+<div class="modal-header">
+    <h2>
+        {{ "LCZ_PROFILE.TITLE" | translate }}
+    </h2>
+</div>
+
+<div class="modal-body">
+    <form [formGroup]="profileForm">
+        <div class="container">
+            <!-- Email text field -->
+            <div class="row mb-2">
+                <div class="col-3">
+                    <label class="form-control-label">
+                        {{ "LCZ_PROFILE.EMAIL" | translate}}
+                    </label>
+                </div>
+
+                <div class="col-9">
+                    <input type="text" class="form-control" formControlName="email">
+                </div>
+            </div>
+
+            <!-- First name text field -->
+            <div class="row mb-2">
+                <div class="col-3">
+                    <label class="form-control-label">
+                        {{ "LCZ_PROFILE.FIRST_NAME" | translate}}
+                    </label>
+                </div>
+
+                <div class="col-9">
+                    <input type="password" class="form-control" formControlName="first_name">
+                </div>
+            </div>
+
+            <!-- Last name text field -->
+            <div class="row mb-2">
+                <div class="col-3">
+                    <label class="form-control-label">
+                        {{ "LCZ_PROFILE.LAST_NAME" | translate}}
+                    </label>
+                </div>
+
+                <div class="col-9">
+                    <input type="password" class="form-control" formControlName="last_name">
+                </div>
+            </div>
+
+            <!-- Password text field -->
+            <div class="row mb-2">
+                <div class="col-3">
+                    <label class="form-control-label">
+                        {{ "LCZ_PROFILE.PASSWORD" | translate}}
+                    </label>
+                </div>
+
+                <div class="col-9">
+                    <input type="password" class="form-control" formControlName="password">
+                </div>
+            </div>
+
+            <!-- Repeat password text field -->
+            <div class="row mb-2">
+                <div class="col-3">
+                    <label class="form-control-label">
+                        {{ "LCZ_PROFILE.REPEAT_PASSWORD" | translate}}
+                    </label>
+                </div>
+
+                <div class="col-9">
+                    <input type="password" class="form-control" formControlName="repeat_password">
+                </div>
+            </div>
+
+            <!-- Gender radio buttons-->
+            <div class="row mb-2">
+                <div class="col-3">
+                    <label class="form-control-label">
+                        {{ "LCZ_PROFILE.GENDER.LABEL" | translate}}
+                    </label>
+                </div>
+                <div class="col-9">
+                    <label class="radio-inline">
+                        <input type="radio" value="male" formControlName="gender">
+                        <span>
+                            {{ "LCZ_PROFILE.GENDER.MALE" | translate }}
+                        </span>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="female" formControlName="gender">
+                        <span>
+                            {{ "LCZ_PROFILE.GENDER.FEMALE" | translate }}
+                        </span>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" value="unspecified" formControlName="gender">
+                        <span>
+                            {{ "LCZ_PROFILE.GENDER.UNSPECIFIED" | translate }}
+                        </span>
+                    </label>
+                </div>
+            </div>
+
+            <!-- City text field -->
+            <div class="row mb-2">
+                <div class="col-3">
+                    <label class="form-control-label">
+                        {{ "LCZ_PROFILE.CITY" | translate}}
+                    </label>
+                </div>
+
+                <div class="col-9">
+                    <input type="password" class="form-control" formControlName="city">
+                </div>
+            </div>
+
+            <!-- State text field -->
+            <div class="row mb-2">
+                <div class="col-3">
+                    <label class="form-control-label">
+                        {{ "LCZ_PROFILE.STATE" | translate}}
+                    </label>
+                </div>
+
+                <div class="col-9">
+                    <input type="password" class="form-control" formControlName="state">
+                </div>
+            </div>
+
+
+            <!-- Country text field -->
+            <div class="row mb-2">
+                <div class="col-3">
+                    <label class="form-control-label">
+                        {{ "LCZ_PROFILE.COUNTRY" | translate}}
+                    </label>
+                </div>
+
+                <div class="col-9">
+                    <input type="text" class="form-control" formControlName="country">
+                </div>
+            </div>
+
+            <!-- Save profile button -->
+            <div class="row mt-4">
+                <div class="col-12">
+                    <button class="btn-block btn-primary" type="submit">
+                        {{ "LCZ_PROFILE.SAVE_BTN" | translate}}
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>

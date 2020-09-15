@@ -1,0 +1,11 @@
+
+<app-header (menuClicked)="onMenuOpened()" (languageChanged)="onLanguageChanged($event)"></app-header>
+
+<router-outlet class="hd-urdu"></router-outlet>
+
+<app-footer></app-footer>
+
+<div class="overlay" (click)="onMenuClosed()" [ngClass]="{'active': menuOpened? true : false}">
+    <div>{{menuOpened}}</div>
+</div>
+

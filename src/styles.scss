@@ -1,0 +1,85 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/theme/customize-bootstrap.scss';
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import "~font-awesome/css/font-awesome.css";
+@import '~ngx-toastr/toastr';
+@import '~ngx-toastr/toastr-bs4-alert';
+@import '~ngx-ui-switch/ui-switch.component.scss';
+
+@import '../node_modules/dragula/dist/dragula.min.css';
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/notonastaliqurdu.css);
+
+.hd-page-title {
+  @extend h1;
+  margin-bottom: 30px;
+}
+
+.hd-body {
+  padding-top: 67px;
+  background-color: whitesmoke;
+}
+
+.hd-error-msg {
+  color: red;
+  font-size: 12px;
+  text-align: right;
+}
+
+.hd-flashy-icon {
+  transition: color 1s ease;
+  font-size: 20px;
+  color: #7195BE;
+  margin-left: 7px;
+}
+
+.hd-flashy-icon:hover {
+  color: blue;
+}
+
+* {
+  font-family: 'Raleway';
+}
+
+.hd-urdu * {
+  font-family: 'Noto';
+}
+
+.modal-header {
+  color: #7195BE;
+  justify-content: center;
+}
+
+.modal-body {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.hd-gray-text {
+  color: #707070;
+}
+
+.hd-outline-button {
+  background: white;
+  border: 1px solid rgba(112, 112, 112, 0.5);
+  color: #736C6C;
+  width: 120px;
+  height: 30px;
+  font-weight: 700;
+  padding-top: 2px;
+}
+
+.hd-outline-button-large {
+  @extend .hd-outline-button;
+  width: 160px;
+}
+
+.hd-full-height {
+  height: 100%;
+}
+
+.hd-full-width {
+  width: 100%;
+  max-width: 100%;
+}

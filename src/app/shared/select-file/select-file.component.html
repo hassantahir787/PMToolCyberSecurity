@@ -1,0 +1,8 @@
+
+<!-- A hidden component for selecting files, it is hidden so that we can use a separate button of our choice for uploading files -->
+<input #file type="file" (change)="onChange($event)" [hidden]="true" />
+
+<!-- Button that can have custom appearance,  -->
+<button (click)="btnClicked($event)" type="button" class="btn btn-primary">
+    {{ title }}
+</button>
