@@ -14,17 +14,7 @@ const routes: Routes = [
     component: HomeComponent,
     canActivate: [AuthGuard]
   },
-  // { path: 'courses', loadChildren: '../app/modules/course/course.module#CourseModule' },
-  // { path: 'user', loadChildren: '../app/modules/user/user.module#UserModule' },
-  { path: 'settings', loadChildren: '../app/modules/settings/settings.module#SettingsModule' },
-  { path: 'authentication', loadChildren: '../app/modules/authentication/authentication.module#AuthenticationModule' },
-  // { path: 'my', loadChildren: '../app/modules/my-account/my-account.module#MyAccountModule' },
-  { path: 'create-user', loadChildren: '../app/modules/user/create-user/create-user.module#CreateUserModule' },
-  { path: 'manage-user', loadChildren: '../app/modules/user/manage-user/manage-user.module#ManageUserModule' },
-  { path: 'create-property', loadChildren: '../app/modules/property/create-property/create-property.module#CreatePropertyModule' },
-  { path: 'manage-property', loadChildren: '../app/modules/property/manage-property/manage-property.module#ManagePropertyModule' },
-  { path: 'create-item', loadChildren: '../app/modules/menu/create-item/create-item.module#CreateItemModule' },
-  { path: 'manage-item', loadChildren: '../app/modules/menu/manage-item/manage-item.module#ManageItemModule' },
+
   { path: 'login', loadChildren: '../app/modules/login/login.module#LoginModule' },
   { path: 'signup', loadChildren: '../app/modules/signup/signup.module#SignupModule' }
   // { path: 'about', component: AboutComponent }

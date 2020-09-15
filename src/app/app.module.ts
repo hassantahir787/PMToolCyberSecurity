@@ -26,21 +26,6 @@ import { TooltipModule } from 'ngx-bootstrap/tooltip';
 // import { CareersComponent } from './layouts/portals/home/careers/careers.component';
 // import { CompanyPlansComponent } from './layouts/portals/home/company-plans/company-plans.component';
 import { FooterComponent } from './layouts/parts/footer/footer.component';
-import {CreateUserModule} from '../app/modules/user/create-user/create-user.module';
-import { ManageUserComponent } from './modules/user/manage-user/manage-user.component';
-import { ManageUserModule } from './modules/user/manage-user/manage-user.module';
-import { CreatePropertyComponent } from './modules/property/create-property/create-property.component';
-import { ManagePropertyComponent } from './modules/property/manage-property/manage-property.component';
-import { CreateItemComponent } from './modules/menu/create-item/create-item.component';
-import { ManageItemComponent } from './modules/menu/manage-item/manage-item.component';
-import { CreateCategoryComponent } from './modules/menu/create-category/create-category.component';
-import { ManageCategoryComponent } from './modules/menu/manage-category/manage-category.component';
-import { CreatePropertyModule } from './modules/property/create-property/create-property.module';
-import { ManagePropertyModule } from './modules/property/manage-property/manage-property.module';
-import { CreateItemModule } from './modules/menu/create-item/create-item.module';
-import { ManageItemModule } from './modules/menu/manage-item/manage-item.module';
-import { CreateCategoryModule } from './modules/menu/create-category/create-category.module';
-import { ManageCategoryModule } from './modules/menu/manage-category/manage-category.module';
 import { LoginComponent } from './modules/login/login.component';
 import { SignupComponent } from './modules/signup/signup.component';
 import { SignupModule } from './modules/signup/signup.module';
@@ -94,14 +79,14 @@ export function createTranslateLoader(http: HttpClient) {
     SettingsModule,
     // UserModule,
     // CourseModule,
-    CreateUserModule,
-    ManageUserModule,
-    CreatePropertyModule,
-    ManagePropertyModule,
-    CreateItemModule,
-    ManageItemModule,
-    CreateCategoryModule,
-    ManageCategoryModule,
+    // CreateUserModule,
+    // ManageUserModule,
+    // CreatePropertyModule,
+    // ManagePropertyModule,
+    // CreateItemModule,
+    // ManageItemModule,
+    // CreateCategoryModule,
+    // ManageCategoryModule,
     SignupModule,
     LoginModule,
     TooltipModule.forRoot(),
